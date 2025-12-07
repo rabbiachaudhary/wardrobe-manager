@@ -1,0 +1,168 @@
+Build a full-stack cute pastel wardrobe management website with these features:
+
+👚 1. Authentication
+
+Login + Signup (email + password)
+
+Store users locally (SQLite or JSON)
+
+Redirect to dashboard after login
+
+🧵 2. Add Individual Clothing Pieces
+
+Users can add single clothing items with:
+
+1 image per item (store locally in /static/pieces/)
+
+Name
+
+Category (Top, Bottom, Shoes, Accessories, Jacket, etc.)
+
+Color
+
+Season (Summer, Winter, Fall, Spring)
+
+Optional tags (kawaii, casual, formal, comfy, etc.)
+
+These individual pieces will later be used to build full outfits.
+
+👗 3. Create Outfits From Pieces
+
+Users should be able to:
+
+Select multiple clothing pieces (tops + bottoms + shoes + accessories)
+
+Give the outfit a name
+
+Upload an optional outfit cover image
+(or auto-generate using thumbnails of pieces)
+
+Save the outfit to database (/static/outfits/)
+
+Use a drag-and-drop or multi-select cute UI to choose pieces.
+
+📅 4. Daily Outfit Tracking
+
+Users can:
+
+Mark which outfit they wore today
+
+Add optional location
+
+Log automatically stores:
+
+Date
+
+Outfit ID
+
+Automatically update worn count + last worn timestamp
+
+📊 5. Smart Analytics & Suggestions
+
+System should calculate:
+
+For Each Clothing Piece:
+
+How many outfits it is part of
+
+How many times it was worn (through outfit usage)
+
+For Each Outfit:
+
+How many times worn
+
+Last worn date
+
+Smart Suggestions:
+
+Recommend outfits not worn in the longest time
+
+Filter suggestions based on current season
+
+Highlight unused clothing pieces that have never been worn
+
+🎀 6. Cute Pastel Aesthetic UI (Very Important!)
+
+Use a kawaii, soft, pastel theme:
+
+Colors:
+
+Pastel pink
+
+Lavender
+
+Mint
+
+Baby blue
+
+Cream/white
+
+UI Style:
+
+Rounded corners (16–24px)
+
+Soft shadows
+
+Cards with pastel borders
+
+Hover animations (gentle scale + glow)
+
+Cute icons (stars, bows, sparkles, hearts)
+
+Soft fonts like:
+
+Poppins
+
+Quicksand
+
+Nunito
+
+Comfortaa
+
+Pages must feel like a Pinterest x Hello Kitty closet.
+
+🗂 7. Pages Needed
+
+Login / Signup
+
+Dashboard
+
+Add Clothing Piece
+
+Piece Gallery (filter by season/color/category)
+
+Create Outfit (pick pieces)
+
+Outfit Gallery
+
+Wear Today (log outfit worn)
+
+Analytics Page (counts, last worn, suggestions)
+
+💾 8. Tech Stack (Replit Friendly)
+
+Frontend: HTML + CSS + JavaScript
+
+Backend: Flask (Python) OR Node.js (Express)
+
+Database: SQLite or JSON
+
+Images stored locally in:
+
+/static/pieces/
+
+/static/outfits/
+
+🤖 9. What I want Replit to generate
+
+Complete backend (routes, CRUD, login, image upload)
+
+Frontend pages with cute pastel UI
+
+Outfit builder interface (multi-select or drag-&-drop)
+
+All database tables (users, pieces, outfits, outfit_pieces, wear_log)
+
+Smart recommendation logic
+
+Working project structure ready to run
