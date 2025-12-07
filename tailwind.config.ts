@@ -86,6 +86,9 @@ export default {
         sans: ["var(--font-sans)"],
         serif: ["var(--font-serif)"],
         mono: ["var(--font-mono)"],
+        heading: ["Poppins", "var(--font-sans)"],
+        body: ["Quicksand", "var(--font-sans)"],
+        accent: ["Comfortaa", "var(--font-sans)"],
       },
       keyframes: {
         "accordion-down": {
